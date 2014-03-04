@@ -11,7 +11,7 @@ class Login {
 	
 	public function __construct($arr)
 	{
-        $this->mysqliv = new mysqli('biologi.datx.dk', 'c1biologi', '2012apples!','c1biologi' );
+        $this->mysqliv = new mysqli( );
 		if(isset($arr['username']))
 		{
 			$this->username = $arr['username'];

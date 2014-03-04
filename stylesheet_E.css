@@ -1,0 +1,122 @@
+
+body {
+	background-color:purple;
+}
+
+#wrapper {
+	width:1000px;
+	height:1020px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+#banner {
+	width:1000px;
+	height:100px;
+	background-color:grey;
+	color:white;
+}
+
+#banner table {
+	width:1000px;
+	height:100px;
+}
+
+#banner table td:first-child {
+	width:700px;
+}
+
+#banner table td:first-child + td {
+	width:300px;
+	padding:5px;
+}
+
+#content {
+	width:1000px;
+	height:850px;
+	background-color:lightblue;
+}
+
+#footer {
+	width:1000px;
+	height:100px;
+	background-color:green;
+	text-align:center;
+}
+
+/* #main_menu{
+	width:1000px;
+	height:40px;
+	background-color:darkred;
+	float:left;
+}
+
+#main_menu ul {
+	list-style-type:none;
+	margin:0;
+	padding:1px 0px 1px 0px;
+	overflow:hidden;
+}
+#main_menu li {
+	float:left;
+}
+
+#main_menu li a:link{
+	display:block;
+	width:80px;
+	font-weight:bold;
+	font-family:georgia, times, serif;
+	color:#FFFFFF;
+	text-align:center;
+	text-decoration:none;
+	padding:10px;
+}
+
+#main_menu li a:visited{
+	display:block;
+	width:80px;
+	font-weight:bold;
+	font-family:georgia, times, serif;
+	color:#FFFFFF;
+	text-align:center;
+	text-decoration:none;
+	padding:10px;
+}
+
+#main_menu li a:hover{
+	background-color:red;
+}
+#main_menu li a:active  {
+	background-color:red;
+}*/
+
+
+.active {
+	background-color:red;
+}
+
+a:link {
+	color:blue;
+	text-decoration:none;
+}
+
+a:visited {
+	color:blue;
+	text-decoration:none;
+}
+
+a:hover {
+	color:blue;
+	text-decoration:underline;
+}
+a:active {
+	color:darkred;
+	text-decoration:underline;
+}
+
+
+
+
+
+
+
